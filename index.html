@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script language="javascript" type="text/javascript" src="./p5.js"></script>
+        <script language="javascript" type="text/javascript" src="./markov.js"></script>
+
+        <title>Dixit Diderot !</title>
+
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="row-centered">
+            <div class="col-centered">
+                <img class = "didi_img" src="./diderot.png" alt="">
+            </div>
+        </div>
+
+        <div class="col-centered row-centered">
+                <p class="selector">
+                    <b>  Dideritude</b>
+                    <br />
+                    0<input type="range" id="dideritude" value="9" max="12" min="2" step="1">10
+                </p>
+        </div>
+
+        <div class="row row-centered">
+            <div class="col-centered">
+                <button type="button" name="button" class="myButton" onclick="launch()"><span>DIXIT</span></button>
+            </div>
+        </div>
+
+        <br/>
+        <div class="row-centered">
+            <div class="col-centered">
+                <blockquote  id="para" class="citation"></blockquote>
+            </div>
+        </div>
+        
+    <footer>
+        <p>
+            Réalisé par <a href="http://maximeborry.com"> Maxime Borry</a> - <a href="http://maximeborry.com"> Qu'est ce que c'est ?</a> 
+        </p>
+    </footer>
+    </body>
+</html>
