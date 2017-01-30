@@ -48,7 +48,7 @@ function mchain() {
         mykmer = resultat.substring(longueur - kmer_size, longueur);
     }
     var html = document.getElementById("para");
-    html.innerHTML = resultat+"<br/><small>(peut-être) par <cite>Denis Diderot</cite></small>";
+    html.innerHTML = resultat+"<br/><small><cite>Denis Diderot</cite> (enfin peut-être...)</small>";
 }
 
 function launch() {
