@@ -8,9 +8,12 @@ Running at [**dixitdiderot.cf**](http://dixitdiderot.cf)
 ### Code
 Written in Javascript, published in HTML/CSS.
 
-### Settings 
+### Settings
 
 **Dideritude** : order of the markov chain (0 to 10 mapped to 2 to 12).
 
 ### Acknowledgments
-Inspired by [Daniel Shiffman](http://shiffman.net/)
+Inspired by :
+- [Daniel Shiffman](http://shiffman.net/)
+- [w3schools](http://www.w3schools.com/)
+- [Button Generator](http://www.bestcssbuttongenerator.com)
