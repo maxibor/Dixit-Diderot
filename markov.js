@@ -58,3 +58,24 @@ function launch() {
     list_maker();
     mchain();
 }
+
+
+/* Open */
+function openCV() {
+    document.getElementById("myCV").style.height = "100%";
+}
+
+/* Close */
+function closeCV() {
+    document.getElementById("myCV").style.height = "0%";
+}
+
+/* Open */
+function openAbout() {
+    document.getElementById("About").style.height = "100%";
+}
+
+/* Close */
+function closeAbout() {
+    document.getElementById("About").style.height = "0%";
+}

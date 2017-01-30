@@ -14,14 +14,37 @@
 
     </head>
     <body>
+        <div id="myCV" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeCV()">&times;</a>
+          <div class="overlay-content">
+            <h2>Maxime Borry</h2>
+            <p>
+                Biology and Bioinformatics student
+                <br/>
+                25 years old
+            </p>
+            <h3>Experience</h3>
+            <ul>
+                <li>CRG Barcelona</li>
+                <li>Max Planck Leipzig</li>
+            </ul>
+            <h3>Studies</h3>
+            <ul>
+                <li>Master 1 BIB</li>
+                <li>Master 1 BEE</li>
+                <li>Bachelor FDV</li>
+            </ul>
+          </div>
+        </div>
+
         <div id="About" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeAbout()">&times;</a>
           <div class="overlay-content">
             <h2>Dixit Diderot</h2>
             <p>Using Markov chain applied on Philosopher Denis Diderot's book Pensées philosophiques, this project aims to recreate Diderot's writing.</p>
             <p>The dideritude is the order of the markov chain.</p>
-            <a href="https://github.com/maxibor/Dixit-Diderot" target="_blank">&#128279; More details here</a></p>
-            <a href="https://maximeborry.com" target="_blank">&#128279; Made by <b>Maxime Borry</b></a>
+            <a href="https://github.com/maxibor/Dixit-Diderot">&#128279; More details here</a></p>
+            <a href="https://maximeborry.com">&#128279; Made by <b>Maxime Borry</b></a>
           </div>
         </div>
 
@@ -53,7 +76,7 @@
         </div>
     <footer>
         <p>
-            <span style="cursor:pointer" onclick="openAbout()"><b>About</b></span>
+            <span style="cursor:pointer" onclick="openAbout()">About</span> - <span style="cursor:pointer" onclick="openCV()">Author</span>
         </p>
     </footer>
     </body>
