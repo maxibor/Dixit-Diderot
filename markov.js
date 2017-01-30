@@ -62,12 +62,12 @@ function launch() {
 
 /* Open */
 function openCV() {
-    document.getElementById("myCV").style.height = "100%";
+    document.getElementById("myCV").style.width = "100%";
 }
 
 /* Close */
 function closeCV() {
-    document.getElementById("myCV").style.height = "0%";
+    document.getElementById("myCV").style.width = "0%";
 }
 
 /* Open */
