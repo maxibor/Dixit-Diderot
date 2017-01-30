@@ -72,10 +72,10 @@ function closeCV() {
 
 /* Open */
 function openAbout() {
-    document.getElementById("About").style.height = "100%";
+    document.getElementById("About").style.width = "100%";
 }
 
 /* Close */
 function closeAbout() {
-    document.getElementById("About").style.height = "0%";
+    document.getElementById("About").style.width = "0%";
 }
