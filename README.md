@@ -3,8 +3,8 @@
 ### Introduction
 Using [Markov chain](https://en.wikipedia.org/wiki/Markov_chain) applied on Philosopher Denis Diderot's book [*Pensées philosophiques*](https://fr.wikipedia.org/wiki/Pens%C3%A9es_philosophiques), this project aims to recreate Diderot's writing.
 
-- Running at [**dixitdiderot.cf**](http://dixitdiderot.cf)
-- Android app [**here**](http://dixitdiderot.cf/dixitdiderot.apk)
+- Running at [**maximeborry.com/dixit-diderot**](https://maximeborry.com/dixit-diderot)
+- Android app [**here**](app/apk/dixitdiderot.apk)
 
 ### Code
 Written in Javascript (using [p5](http://p5js.org/)), published in HTML/CSS.  
